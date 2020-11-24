@@ -1,4 +1,4 @@
-*
-!.gitignore
-!*.do
-!*.dct
+*.zip
+*.dta
+*.png
+*.pdf
