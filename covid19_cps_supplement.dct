@@ -1,0 +1,13 @@
+infile dictionary {
+* see documentation at 
+* https://www2.census.gov/programs-surveys/cps/techdocs/Covid19_TechDoc.pdf
+_column(1)      str5     qstnum      %5s     "Unique household identifier"
+_column(6)      str2     occurnum    %2s     "Unique person identifier"
+_column(8)      byte     hrmonth     %2f     "Month of interview"                    
+_column(10)     byte     hryear      %2f     "Year of interview"
+_column(12)     byte     ptcovid1    %2f     "Telework b/c COVID"
+_column(14)     byte     ptcovid2    %2f     "Unable to work b/c employer closed b/c COVID"
+_column(16)     byte     ptcovid3    %2f     "Receive pay from employer but did not work"
+_column(18)     byte     ptcovid4    %2f     "Prevented from looking for work b/c COVID"
+_column(20)     byte     ptcovid5w   %2f     "Needed but did not get non-COVID med care b/c COVID"
+}
